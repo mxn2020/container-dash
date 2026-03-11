@@ -1,5 +1,6 @@
-id: 11148038-a208-44d9-802e-356437e6c502
 name: container-dash
+project_scope: main
+project_type: standalone
 description: React + TypeScript + Vite
 tier: prototype
 lane: oss
@@ -9,5 +10,6 @@ stack: [typescript, react, convex, tailwind, vite]
 repo: "https://github.com/mxn2020/container-dash"
 deploy_url: null
 last_active: 2026-02-25
-tags: []
-notes: 
+tags: [containers, docker, dashboard, monitoring, devops, kubernetes, ops]
+notes: null
+id: 11148038-a208-44d9-802e-356437e6c502

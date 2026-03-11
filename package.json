@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest run --passWithNoTests"
+    "test": "vitest run --passWithNoTests",
+    "stop": "pkill -f 'vite.*container-dash' || true"
   },
   "dependencies": {
     "@geenius-ui/react-css": "file:/Users/mehdinabhani/Projects/antigravity/packages/geenius-ui/packages/react-css",
@@ -43,7 +44,7 @@
     "vite": "^7.3.1",
     "vitest": "^4.0.18"
   },
-  "description": "React + TypeScript + Vite",
+  "description": "Docker container management dashboard with real-time monitoring",
   "author": "Mehdi Nabhani",
   "license": "MIT",
   "keywords": [
