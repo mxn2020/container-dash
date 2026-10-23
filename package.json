@@ -46,7 +46,7 @@
   },
   "description": "Docker container management dashboard with real-time monitoring",
   "author": "Mehdi Nabhani",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": [
     "container",
     "dash",
